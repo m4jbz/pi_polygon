@@ -2,4 +2,4 @@
 
 set -xe
 
-gcc -Wall -Wextra -o main main.c
+gcc -Wall -Wextra -lm -o main main.c -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
